@@ -8,7 +8,10 @@ requires = ["setuptools"]
 authors = [{name = "Jarosław Wierzbowski", email = "jaroslawierzbowski2001@gmail.com"},
             {name = "Rafał Arciszewski", email = "240389@edu.p.lodz.pl"}]
 dependencies = [
-    "pulp>=2.9.0"
+    "pulp>=2.9.0",
+    "numpy>=2.2.0",
+    "matplotlib>=3.10.0",
+    "ipywidgets>=8..1.5"
 ]
 dynamic = ["version"]
 license = {text = "MIT License"}
